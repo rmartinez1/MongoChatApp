@@ -1,8 +1,17 @@
 #messages{
     height:300px;
     background-color: #efefef;
+    overflow-y: auto;
 }
 
 .chat-message{
     background-color: aliceblue;
+    border-radius: 5px;
+}
+
+body{
+background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); 
+
 }

@@ -41,8 +41,8 @@
         
         message.setAttribute('class', 'chat-message');
         message.textContent = data[x].name+": "+data[x].message;
-        messages.appendChild(message);
         messages.insertBefore(message, messages.firstChild);
+        messages.appendChild(message);
                 }
             }
         });
